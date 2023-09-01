@@ -1,0 +1,40 @@
+article {
+  color: white;
+}
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem 1rem;
+}
+.footerLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.dev-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.footerRight .dev-info {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 0.3rem;
+}
+.footerMiddle {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  /* margin-top: 100px;
+  margin-right: 250px; */
+}
+
+@media screen and (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
