@@ -19,22 +19,34 @@ function Navbar() {
 
   window.addEventListener("scroll", changeColor);
   return (
-    <div className={color ? "navHeader navHeaderbg" : "navHeader"}>
+    <div
+      className={
+        color ? "navHeader navHeaderbg common-pd" : "navHeader common-pd"
+      }
+    >
       <Link to="/">
-        <h1>Portfolio</h1>
+        <h1 className="common-txt-clr">Portfolio</h1>
       </Link>
       <ul className={toggle ? "navLinks active" : "navLinks"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link className="common-txt-clr" to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/project">Project</Link>
+          <Link className="common-txt-clr" to="/project">
+            Project
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link className="common-txt-clr" to="/about">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link className="common-txt-clr" to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="toggleButton" onClick={handleChange}>

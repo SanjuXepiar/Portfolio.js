@@ -3,7 +3,7 @@ import Footer from "../component/Footer/Footer";
 function Contact() {
   return (
     <div>
-      <div style={{ minHeight: "80vh" }}></div>
+      <div style={{ minHeight: "90vh" }}></div>
       <Footer />
     </div>
   );

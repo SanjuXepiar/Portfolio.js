@@ -13,40 +13,53 @@ function Footer() {
     <div className="footer">
       <div className="footerLeft">
         <article className="dev-info address">
-          <FaAddressCard size={20} />
-          <span style={{ textTransform: "uppercase" }}>
+          <FaAddressCard size={20} className="common-txt-clr" />
+          <span
+            className="common-txt-clr"
+            style={{ textTransform: "uppercase" }}
+          >
             batashi, siliguri, west-bengal, 734427
           </span>
+          {/*  */}
         </article>
         <article className="dev-info phone">
-          <FaPhoneAlt size={20} />
-          <span>9851929367</span>
+          <FaPhoneAlt size={20} className="common-txt-clr" />
+          <span className="common-txt-clr">9851929367</span>
         </article>
         <article className="dev-info email">
-          <BiLogoGmail size={20} />
-          <span style={{ textTransform: "lowercase" }}>
+          <BiLogoGmail size={20} className="common-txt-clr" />
+          <span
+            className="common-txt-clr"
+            style={{ textTransform: "lowercase" }}
+          >
             sarkar.sanjusps@gmail.com
           </span>
         </article>
       </div>
       <article className="footerMiddle">
-        <p>
+        <p className="common-txt-clr">
           &copy; {new Date().getFullYear()}
-          <span style={{ textDecoration: "underline", marginLeft: "0.25rem" }}>
-            Sanju Sarkar.
+          <span
+            className="common-txt-clr"
+            style={{ textDecoration: "underline", marginLeft: "0.25rem" }}
+          >
+            Sanju Sarkar.All rights reserved.
           </span>
-          All rights reserved.
         </p>
       </article>
       <div className="footerRight">
         <article className="dev-info">
-          <FaGithubSquare size={20} onClick={handleGithub} />
+          <FaGithubSquare
+            size={20}
+            className="common-txt-clr"
+            onClick={handleGithub}
+          />
           <a
             href="https://www.linkedin.com/in/sanju-sarkar-941637269"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={20} fill="black" />
+            <FaLinkedin size={20} className="common-txt-clr" />
           </a>
         </article>
       </div>

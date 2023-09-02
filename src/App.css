@@ -13,6 +13,19 @@
   }
 }
 
+.header-ht-margin {
+  padding-top: 5.625rem;
+}
+.content-min-height {
+  min-height: 90vh;
+}
+.common-pd {
+  padding: 0 1rem;
+}
+.common-txt-clr {
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
