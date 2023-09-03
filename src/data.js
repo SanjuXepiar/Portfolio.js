@@ -1,7 +1,7 @@
 export const projectData = [
   {
     id: "1",
-    title: "Project One",
+    title: "Reviews",
     description: "abhi testing chal rahi hai",
     date: "2 January 2023",
     liveLink: "https://reviewsproject-02.netlify.app",
@@ -9,7 +9,7 @@ export const projectData = [
   },
   {
     id: "2",
-    title: "Project Two",
+    title: "Tours List",
     description: "abhi testing chal rahi hai",
     date: "2 January 2023",
     liveLink: "https://tours-single-component02.netlify.app",
@@ -17,7 +17,31 @@ export const projectData = [
   },
   {
     id: "3",
-    title: "Project Threee",
+    title: "Menubar",
+    description: "abhi testing chal rahi hai",
+    date: "2 January 2023",
+    liveLink: "https://menu-bar01.netlify.app",
+    sourceLink: "https://github.com/SanjuXepiar/menu-bar",
+  },
+  {
+    id: "4",
+    title: "Reviews",
+    description: "abhi testing chal rahi hai",
+    date: "2 January 2023",
+    liveLink: "https://reviewsproject-02.netlify.app",
+    sourceLink: "https://github.com/SanjuXepiar/reviewsproject-02",
+  },
+  {
+    id: "5",
+    title: "Tours List",
+    description: "abhi testing chal rahi hai",
+    date: "2 January 2023",
+    liveLink: "https://tours-single-component02.netlify.app",
+    sourceLink: "https://github.com/SanjuXepiar/tours02",
+  },
+  {
+    id: "6",
+    title: "Menubar",
     description: "abhi testing chal rahi hai",
     date: "2 January 2023",
     liveLink: "https://menu-bar01.netlify.app",

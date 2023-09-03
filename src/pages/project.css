@@ -6,11 +6,40 @@
   background: white;
   align-items: center;
 }
+
 .project-item {
   padding: 0.75rem;
   width: 40rem;
   border: 1px solid rgba(0, 0, 0, 0.208);
   border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.project-item__title {
+  font-weight: 500;
+}
+.project-item__date {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.project-item__actions {
+  display: flex;
+  gap: 0.5rem;
+}
+.project-item__actions button {
+  width: 6.5rem;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  border-color: rgba(0, 0, 0, 0.4);
+  font-family: inherit;
+  font-weight: 500;
+}
+.project-item__actions--live {
+  background: rgba(172, 255, 47, 0.231);
+}
+.project-item__actions--source {
+  background: rgba(68, 33, 240, 0.231);
 }
 @media screen and (max-width: 680px) {
   .project-item {

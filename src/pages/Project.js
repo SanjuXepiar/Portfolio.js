@@ -12,6 +12,9 @@ function Project() {
   return (
     <div className="header-ht-margin">
       <section className="content-min-height project">
+        <header>
+          <h2 className="project-header">See my Projects</h2>
+        </header>
         {projectData.map(
           ({ id, title, description, date, liveLink, sourceLink }) => {
             return (

@@ -25,20 +25,26 @@ function Navbar() {
       }
     >
       <Link to="/">
-        <h1 className="common-txt-clr">Portfolio</h1>
+        <h1 className="common-txt-clr" style={{ fontWeight: 500 }}>
+          Sanju
+        </h1>
       </Link>
       <ul className={toggle ? "navLinks active" : "navLinks"}>
         <li>
-          <Link className="common-txt-clr" to="/">
+          <Link className="common-txt-clr" to="/" style={{ fontWeight: 500 }}>
             Home
           </Link>
         </li>
         <li>
-          <Link className="common-txt-clr" to="/project">
+          <Link
+            className="common-txt-clr"
+            to="/project"
+            style={{ fontWeight: 500 }}
+          >
             Project
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link className="common-txt-clr" to="/about">
             About
           </Link>
@@ -47,7 +53,7 @@ function Navbar() {
           <Link className="common-txt-clr" to="/contact">
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
       <div className="toggleButton" onClick={handleChange}>
         {toggle ? (
