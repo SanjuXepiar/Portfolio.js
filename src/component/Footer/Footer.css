@@ -18,15 +18,15 @@
 .footerRight .dev-info {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 0.3rem;
 }
 .footerMiddle {
+  width: 100vw;
   position: absolute;
   top: 90%;
-  left: 40%;
-  /* margin-top: 100px;
-  margin-right: 250px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
