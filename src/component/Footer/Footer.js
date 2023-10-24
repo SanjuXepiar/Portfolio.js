@@ -39,10 +39,7 @@ function Footer() {
       <article className="footerMiddle">
         <p className="common-txt-clr">
           &copy; {new Date().getFullYear()}
-          <span
-            className="common-txt-clr"
-            style={{ textDecoration: "underline", marginLeft: "0.25rem" }}
-          >
+          <span className="common-txt-clr" style={{ paddingLeft: "0.5rem" }}>
             Sanju Sarkar.All rights reserved.
           </span>
         </p>
@@ -50,7 +47,7 @@ function Footer() {
       <div className="footerRight">
         <article className="dev-info">
           <FaGithubSquare
-            size={20}
+            size={23}
             className="common-txt-clr"
             onClick={handleGithub}
           />
@@ -59,7 +56,7 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={20} className="common-txt-clr" />
+            <FaLinkedin size={23} className="common-txt-clr" />
           </a>
         </article>
       </div>
