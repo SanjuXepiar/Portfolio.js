@@ -4,7 +4,7 @@ import backgroundimage from "../../assets/bodyBackground.jpg";
 //
 function MainBody() {
   return (
-    <div className="bodyBackground">
+    <>
       <div className="main">
         <img className="bgImage" src={backgroundimage} alt="Background" />
       </div>
@@ -12,11 +12,11 @@ function MainBody() {
         <h2 className="common-txt-clr">hi, i'm Sanju Sarkar</h2>
         <p className="common-txt-clr">I'm a react developer</p>
 
-        <a href="Sanju.Sarkar-CV.pdf" target="_blank">
+        <a href="Sanju-SarkarResume.pdf" target="_blank">
           Resume
         </a>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../component/Footer/Footer";
+// import Footer from "../component/Footer/Footer";
 import { projectData } from "../data";
 import "./project.css";
 function Project() {
@@ -41,7 +41,7 @@ function Project() {
           }
         )}
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
