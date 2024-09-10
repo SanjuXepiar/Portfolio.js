@@ -59,7 +59,7 @@ function Footer() {
         <p className="common-txt-clr">
           &copy; {new Date().getFullYear()}
           <span className="common-txt-clr">
-            Sanju Sarkar.All rights reserved.
+            Sanju Sarkar. All rights reserved.
           </span>
         </p>
       </article>
