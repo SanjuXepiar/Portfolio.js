@@ -3,7 +3,7 @@ export const projectData = [
     id: "1",
     title: "React Practices",
     description:
-      "Some basic React Practices like counter (in which the count state increases and decreases on clickekin the increment and decrement button respectively), show password ( the function used in the app dynamically changes the type attribute of the input tag) , password match (checks whether the password typed in both the inputs same), todo list (this app has a input tag on cicking additem button a new item is added to the list and in each list there is a edit button which can be used to update the list item a delete button to delete the list item and all the data in thr list is locally stored), etc",
+      "1. Counter: A React counter with increment and decrement button to increase and decrease the count                                                                                                 2. Twitter: A description box with a feature of character count and on reaching 200 characters the app displays an alert of exceeding letter limits                                                           3. Password_Match: Checks whether the value in two input tags matches ",
     date: "2 July 2024",
     liveLink: "https://reactpractice01.netlify.app/",
     sourceLink: "https://github.com/SanjuXepiar/react-practice1",
